@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a 2nd Year Project that I am using Data Science principles to predict whether a patient has thyroid disease or not.
+This is a 2nd Year Project that incorporates Data Science to predict whether a patient has thyroid disease or not.
 
 ## Names of Contributors
 
