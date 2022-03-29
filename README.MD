@@ -4,6 +4,10 @@
 
 This is a 2nd Year Project that incorporates Data Science to predict whether a patient has thyroid disease or not.
 
+The Documentation to the project can be accessed here : 
+
+https://drive.google.com/drive/folders/1l1Yc5cGfkpaIo_HoYH5BVuYG9qTRHZHT?usp=sharing
+
 ## Names of Contributors
 
 - Ryan Mburu
