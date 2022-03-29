@@ -29,10 +29,10 @@ Another motivation is to save lives in Kenya and spread awareness about the dise
 
 # Technologies used
 
-VS Studio
-Google Chrome
-Google Docs
-Microsoft Excel
+- VS Studio
+- Google Chrome
+- Google Docs
+- Microsoft Excel
 
 TBD ...
 
