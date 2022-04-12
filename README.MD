@@ -30,9 +30,10 @@ Another motivation is to save lives in Kenya and spread awareness about the dise
 # Technologies used
 
 - VS Studio
+- Plotly Dash
 - Google Chrome
 - Google Docs
-- Microsoft Excel
+- ExcelMicrosoft Excel
 
 TBD ...
 
@@ -43,6 +44,8 @@ Python
 TBD ...
 
 ## Setup
+
+The link to the deployed website is here : 
 
 TBD ...
 
