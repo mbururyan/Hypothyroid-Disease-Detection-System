@@ -33,7 +33,7 @@ Another motivation is to save lives in Kenya and spread awareness about the dise
 - Plotly Dash
 - Google Chrome
 - Google Docs
-- ExcelMicrosoft Excel
+- Microsoft Excel
 
 TBD ...
 
