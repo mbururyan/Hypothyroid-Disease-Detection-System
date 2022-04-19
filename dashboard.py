@@ -40,10 +40,22 @@ card_gender = dbc.Card(
     ]
 )
 
+card_symptoms = dbc.Card(
+    [
+        dbc.CardHeader('Do Most patients display symptoms ?: '),
+        dbc.CardBody(
+            [
+                html.P('NO')
+            ]
+        )
+    ]
+)
+
 info_cards = dbc.CardDeck(
     [
         dbc.Col(card_age, width = 'auto'),
-        dbc.Col(card_gender, width = 'auto')
+        dbc.Col(card_gender, width = 'auto'),
+        dbc.Col(card_symptoms, width = 'auto')
     ],
 )
 
