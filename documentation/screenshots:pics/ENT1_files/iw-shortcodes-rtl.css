@@ -1,0 +1,238 @@
+/*
+@package Inwave Event
+@version 1.0.0
+@created May 4, 2015
+@author Inwavethemes
+@email inwavethemes@gmail.com
+@website http://inwavethemes.com
+@support Ticket https://inwave.ticksy.com/
+@copyright Copyright (c) 2015 Inwavethemes. All rights reserved.
+@license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+*/
+
+.rtl .iw-item-info.style1.style1_1 .icon-img {
+    float: right;
+    margin: 0 0 0 20px;
+}
+.rtl .iw-item-info.style1 .title:after {
+    right: 0;
+    left: auto;
+}
+.rtl .iw-item-info.style1.style1_3 .icon-img {
+    float: right;
+    margin: 0 0 0 20px;
+}
+.rtl .iw-item-info.style1.style1_4 .icon-img {
+    float: right;
+    margin: 10px 0 0 35px;
+}
+.rtl .simple-list i, .rtl .simple-list span.number {
+    margin: 0 0 0 10px;
+}
+.rtl .iw-opening-hours ul li span {
+    float: left;
+}
+.rtl .iw-contact-form-7 .title:after {
+    right: 0;
+    left: auto;
+}
+.rtl .accordion1 .iw-accordion-item .iw-accordion-header .iw-accordion-title:after {
+    left: 20px;
+    right: auto;
+}
+.rtl .custom-css-imgae img {
+    margin: 0 -60px 0 0;
+}
+.rtl .dropcap .dropcap-style1, .rtl .dropcap .dropcap-style2,
+.rtl .dropcap .dropcap-style3, .rtl .dropcap .dropcap-style4 {
+    float: right;
+    margin: 0 0 0 10px;
+}
+.rtl .cta-banner .cta-banner-content {
+    margin: 0 0 0 135px;
+}
+.rtl .cta-banner .button-action {
+    right: auto;
+    left: 25px;
+}
+.rtl .shortcode-simple-list ul li i, .rtl .shortcode-simple-list ul li span {
+    margin: 0 0 0 10px;
+}
+.rtl .iw-tabs.layout1 .iw-tab-items, .rtl .iw-tabs.layout2 .iw-tab-items {
+    float: right;
+}
+.rtl .iw-tabs.layout1 .iw-tab-items .iw-tab-item.active {
+    border-width: 1px 1px 1px 0;
+}
+.rtl .iw-tabs.layout1 .iw-tab-content:before {
+    left: auto;
+    right: -20px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.rtl .iw-tabs.layout1 .iw-tab-content {
+    border-left: none;
+    border-right: 1px solid #f2f2f2;
+}
+.rtl .iw-tabs.layout1 .iw-tab-items .iw-tab-item.active {
+    margin: 0 0 0 -1px;
+}
+.rtl .iw-tabs.layout2 .iw-tab-items .iw-tab-item {
+    border-width: 0 0 1px 1px;
+}
+.rtl .iw-tabs.layout2 .iw-tab-items .iw-tab-item.active {
+    border-left: none;
+}
+.rtl .iw-tabs.layout3 .iw-tab-items .iw-tab-item, .rtl .iw-tabs.layout3 .iw-tab-items .iw-tab-item .tab-icon {
+    margin: 0 0 0 5px;
+}
+.rtl .iw-tab-info .description img {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+.rtl .iw-accordion-item .iw-accordion-content .iw-accordion-img {
+    float: right;
+    margin: 0 0 0 20px;
+}
+.rtl .accordion2 .iw-accordion-item .iw-accordion-header .iw-accordion-title i {
+    left: auto;
+    right: 0;
+}
+.rtl .accordion4 .iw-accordion-item .iw-accordion-header .iw-accordion-title {
+    padding: 8px 0 8px 40px;
+}
+.rtl .accordion4 .iw-accordion-item .iw-accordion-header .iw-accordion-title:after {
+    left: 15px;
+    right: auto;
+}
+.rtl .iw-tweet .tweet-icon {
+    left: auto;
+    right: auto;
+}
+.rtl .iw-tweet .tweet-content {
+    margin: 0 90px 0 0;
+}
+.rtl .iw-contact-form7 {
+    float: left;
+}
+.rtl .inwave-map .info {
+    text-align: left;
+}
+.rtl .inwave-map .info > div {
+    position: relative;
+    padding-left: 20px;
+}
+.rtl .inwave-map .info > div i {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.rtl .inwave-map .info > div.address {
+    padding-left: 15px;
+}
+.rtl .inwave-map .info > div.address i {
+    top: 5px;
+}
+.rtl .iw-item-info.style4 a.item-readmore i {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.rtl .iw-contact-form-7 .form-button span.form-button-action {
+    left: 0;
+    right: auto;
+    text-align: left;
+}
+.rtl .iw-contact-form-7 .form-button a {
+    margin: 0 10px 0 0;
+}
+.rtl .iw-contact-form-7.request-appointment .action-button-submit .iw-prev-step {
+    text-align: right;
+}
+.rtl .iw-contact-form-7.request-appointment .action-button-submit .submit-button {
+    text-align: left;
+}
+.rtl .iw-department.style2 .cat-icon {
+    float: right;
+}
+.rtl .iw-department.style2 .content-detail {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: none;
+    margin: 0 110px 0 220px;
+    padding-left: 15px;
+}
+.rtl .iw-department.style2 .content-right-box {
+    right: auto;
+    left: 0;
+}
+.rtl .iw-department.style2 h3.title:before {
+    left: auto;
+    right: 0;
+}
+.rtl .iw-pricing-table-v4 table thead th::after, .iw-pricing-table-v4 table tbody td::after {
+    right: auto;
+    left: 0;
+}
+.rtl .iw-pricing-table.style3 .iw-pricing-item-inner .pricing-body {
+    margin-left: -1px;
+    margin-right: 0;
+}
+.rtl .iw-pricing-table.style3 .item:last-child .iw-pricing-item-inner .pricing-body {
+    margin: 0;
+}
+.rtl .iw-item-info.style3 .item-info-content .title::after {
+    left: auto;
+    right: 0;
+}
+.rtl .iw-item-info.style1 .icon-img {
+    float: right;
+}
+.rtl .iw-item-info.style1.style1_2 .icon-img {
+    margin: 0 0 0 30px;
+}
+.rtl .iw-item-info.style1.style1_5 .icon-img {
+    margin: 0 0 0 25px;
+}
+.rtl .single-department-title-readmore::after,.rtl .single-department-title::after {
+    left: auto;
+    right: 34px;
+}
+.rtl .custom-bg-position-img {
+    background-position: right !important;
+}
+.rtl .iw-department.carousel-v2 .content-item .department-icon {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: none;
+}
+@media (max-width: 1200px) {
+
+    .rtl .iw-opening-hours ul li span {
+        float: none;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .rtl .custom-css-imgae img {
+        margin: 0;
+    }
+}
+@media (max-width: 767px) {
+
+    .rtl .iw-pricing-table.style3 .iw-pricing-item-inner .pricing-body {
+        margin: 0;
+    }
+    .rtl .iw-opening-hours ul li span {
+        float: left;
+    }
+    .rtl .iw-department.style2 .content-right-box {
+        left: auto;
+    }
+    .rtl .iw-department.style2 .content-detail {
+        border-left: none;
+        margin: 20px 0 0;
+        padding-left: 0;
+    }
+    .rtl .iw-department.style2 .cat-icon {
+        float: none;
+    }
+}

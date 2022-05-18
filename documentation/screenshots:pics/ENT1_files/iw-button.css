@@ -1,0 +1,277 @@
+.iw-button a.width-auto {
+    width: auto;
+}
+.iw-button a.full-width {
+    width: 100%;
+}
+.iw-button.ibutton-small {
+    height: 32px;
+}
+.iw-button.ibutton-small a {
+    height: 32px;
+    line-height: 28px;
+    padding: 0 25px;
+    font-size: 13px;
+}
+.iw-button.ibutton-normal {
+    height: 40px;
+}
+.iw-button.ibutton-normal a {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+.iw-button.button2.ibutton-normal a {
+    line-height: 36px;
+}
+.iw-button.ibutton-large a {
+    height: 46px;
+    line-height: 42px;
+    padding: 0 25px;
+    font-size: 18px;
+}
+.iw-button.ibutton-large {
+    height: 46px;
+}
+.iw-button.ibutton-normal.icon a, .iw-button.ibutton-large.icon a {
+    padding: 0 25px 0 36px;
+}
+.iw-button.ibutton-normal.icon-right.icon a, .iw-button.ibutton-large.icon-right.icon a {
+    padding: 0 36px 0 25px;
+}
+.iw-button a {
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+    overflow: hidden;
+}
+.iw-button.button1 a {
+    color: #ffffff !important;
+}
+.iw-button.button2 a {
+    border-width: 2px;
+    border-style: solid;
+}
+.iw-button a i {
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 8px);
+}
+.iw-button.icon-right a i {
+    right: 15px;
+}
+.iw-button.icon-left a i {
+    left: 15px;
+}
+.iw-button.ibutton-small.icon-right a i {
+    right: 10px;
+}
+.iw-button.ibutton-small.icon-left a i {
+    left: 10px;
+}
+.iw-button.ibutton-small a i {
+    font-size: 14px;
+}
+.iw-button.ibutton-normal a i {
+    font-size: 16px;
+}
+.iw-button.ibutton-large a i {
+    font-size: 18px;
+}
+.iw-button.effect-1 a {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.15) !important;
+}
+.iw-button.effect-1 a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+    top: 2px;
+}
+.iw-button.effect-2.icon a {
+    padding: 0 15px !important;
+}
+.iw-button.effect-2 a:hover {
+    text-decoration: none;
+}
+.iw-button.effect-2 a .button-text {
+    backface-visibility: hidden;
+    display: inline-block;
+    height: 100%;
+    transform: translateX(0px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.iw-button.effect-2 a:hover .button-text {
+    transform: translateX(200%);
+}
+.iw-button.icon-right.effect-2 a:hover .button-text {
+    transform: translateX(-200%);
+}
+.iw-button.effect-2 a i {
+    font-size: 110%;
+    height: auto;
+    position: absolute;
+    top: calc(50% - 7px);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+}
+.iw-button.icon-left.effect-2 a i {
+    left: -100% !important;
+    right: auto !important;
+}
+.iw-button.icon-right.effect-2 a i {
+    right: -100% !important;
+    left: auto !important;
+}
+.iw-button.icon-left.effect-2 a:hover i {
+    left: 0 !important;
+}
+.iw-button.icon-right.effect-2 a:hover i {
+    right: 0 !important;
+}
+.iw-button.effect-2 a:hover i {
+    left: 0 !important;
+}
+.iw-button.effect-3 a {
+    z-index: 0;
+}
+.iw-button.effect-3 a:before {
+    -webkit-transition: opacity 0.3s ease 0s;
+    transition: opacity 0.3s ease 0s;
+    opacity: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+.iw-button.effect-3 a:hover::before {
+    opacity: 1;
+}
+.iw-button.effect-4 {
+    overflow: hidden;
+}
+.iw-button.effect-4 a:after {
+    background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+    content: "";
+    height: 200%;
+    margin: -5px 0 0 -5px;
+    position: absolute;
+    top: -30px;
+    transform: rotate(20deg);
+    transform-origin: 0 0 0;
+    transition: all 0.3s ease 0s;
+    width: 30%;
+    z-index: 1;
+}
+.iw-button.effect-4.icon-left a:after {
+    left: 15px;
+}
+.iw-button.effect-4.icon-right a:after {
+    right: -30px;
+}
+.iw-button.effect-4 a:hover::after {
+    width: 40%;
+}
+.iw-button.effect-5 a {
+    position: relative;
+    z-index: 0;
+}
+.iw-button.effect-5 a:hover {
+    color: #ffffff !important;
+}
+.iw-button.effect-5 a:after {
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: -1;
+    height: 0;
+}
+.iw-button.effect-5 a:hover:after {
+    height: 100%;
+}
+.iw-button.border-icon .button-icon {
+    width: 32px;
+    text-align: center;
+    height: 100%;
+}
+.iw-button.ibutton-small.border-icon .button-icon {
+    width: 25px;
+}
+.iw-button.border-icon.icon-left .button-icon {
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    left: 0 !important;
+}
+.iw-button.border-icon.icon-right .button-icon {
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    right: 0 !important;
+}
+.iw-button.border-icon.icon-left.icon a {
+    padding-left: 40px !important;
+}
+.iw-button.border-icon.icon-right.icon a {
+    padding-right: 40px !important;
+}
+.iw-button.ibutton-small.border-icon.icon-left.icon a {
+    padding-left: 30px !important;
+}
+.iw-button.ibutton-small.border-icon.icon-right.icon a {
+    padding-right: 30px !important;
+}
+.iw-button.rounded a {
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.iw-button.bg-hover-grey a:hover {
+    background: #777777 !important;
+}
+.iw-button.bg-hover-white a:hover {
+    background: #ffffff !important;
+}
+.iw-button.bg-hover-black a:hover {
+    background: #000000 !important;
+}
+
+.iw-button.effect-5.bg-hover-grey a:hover:after {
+    background: #777777 !important;
+}
+.iw-button.effect-5.bg-hover-white a:hover:after {
+    background: #ffffff !important;
+}
+.iw-button.effect-5.bg-hover-black a:hover:after {
+    background: #000000 !important;
+}
+
+.iw-button.hover-color-grey a:hover {
+    color: #777777 !important;
+}
+.iw-button.hover-color-white a:hover {
+    color: #ffffff !important;
+}
+.iw-button.hover-color-black a:hover {
+    color: #000000 !important;
+}
+
+.iw-button.hover-border-grey a:hover {
+    border-color: #777777 !important;
+}
+.iw-button.hover-border-white a:hover {
+    border-color: #ffffff !important;
+}
+.iw-button.hover-border-black a:hover {
+    border-color: #000000 !important;
+}

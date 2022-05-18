@@ -1,0 +1,430 @@
+/*
+Theme Package: InMedical
+Theme URI: http://inwavethemes.com/wordpress/inmedical
+Author: inwavethemes
+Author URI: http://inwavethemes.com
+Description: main color.
+*/
+
+/*-------------------------------------------------------
+COLOR DEFINITION
+--------------------------------------------------------*/
+
+/** Default */
+a{
+	color: #400b60;
+}
+.theme-color{
+    color: #400b60!important;
+}
+.theme-color-force{
+    color: #400b60!important;
+}
+.theme-color-hover:hover{
+    color: #400b60!important;
+}
+.theme-bg-color{
+    background-color:#400b60!important;
+}
+.theme-bg{
+    background: none repeat scroll 0 0 #400b60!important;
+}
+.theme-bg-hover:hover{
+    background: none repeat scroll 0 0 #400b60 !important;
+}
+.theme-border-color{
+    border-color: #400b60!important;
+}
+
+/** panel settings */
+.panel-tools .button-command.active,.reset-button button{
+	border-color: #400b60;
+	background-color:#400b60;
+}
+/*****
+ Color define (HienVT)
+*****/
+.iw-contact-form-7 .title, .inwave-map .info div.address i, .dropcap .dropcap-style1, blockquote.style2 p:before, .iw-star-rating,
+.iw-button .button2 a, .simple-list .buttons li .button2 i, .accordion1 .iw-accordion-item .iw-accordion-header .iw-accordion-title:after,
+.accordion1 .iw-accordion-item .iw-accordion-content .iw-sub-title, .accordion2 .iw-accordion-item .iw-accordion-content .iw-sub-title,
+.accordion2 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title, .accordion3 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title,
+.accordion4 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title, .accordion4 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover, .accordion4 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title:after, .accordion4 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover:after, .iw-tabs.layout1 .iw-tab-items .iw-tab-item.active, .iw-tabs.layout2 .iw-tab-items .iw-tab-item.active,
+.iw-tabs.layout3 .iw-tab-items .iw-tab-item.active, .iw-tabs.layout3 .iw-tab-items .iw-tab-item:hover, .department-detail .iw-department-tab .iw-tab-item.active .iw-tab-title,
+.department-detail .iw-tab-item-content .working-schedule .info-right .status.accepting, .iw-medical-doctors .doctors-filter-department button.is-checked, .iw-medical-doctors .doctors-filter-department button:hover,
+.review-author .author-name a:hover, .iw-button.button2 a, .accordion3 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title i,
+.accordion3 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover, .accordion3 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover i, .accordion2 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover, .iw-tabs.layout2 .iw-tab-items .iw-tab-item:hover,
+.iw-tabs.layout1 .iw-tab-items .iw-tab-item:hover, .department-detail .iw-department-tab .iw-tab-item:hover .iw-tab-title, .iw-opening-hours.style1 ul li span,
+.iw-footer-middle .widget_nav_menu .menu li a:hover, .header-version-5 .social-header-v5 a:hover, .iw-contact-form-7.request-appointment .action-button-submit .prev-step a, .in-message.success,
+.iw-sponsors.style2 .owl-theme .owl-controls .owl-buttons div:hover i, .iw-item-info.style6 .item-readmore a, .iw-item-info.style8 .title, .imd-appointment-scroll-vertical .timeslot-slot,
+.imd-appoinment-calendar table tbody td .date.current-day .number, .appointment-calender-available-list .book-appointment, .page-template-home-page-kid .iw-testimonial-item.style4 .testi-client-position,
+.imd-booked-thanks i, .imd-booked-thanks .booked-thanks-title, .imd-booked-thanks .booked-thanks-message .thank, .iw-footer-middle .widget_nav_menu .menu li a:hover, .iw-footer-default .iw-footer-middle .widget_inwave-contact-info a.link_page_about_us,
+.iw-footer-default .iw-copy-right a:hover, .text_404 {
+    color: #400b60;
+}
+.iw-button.hover-color-theme a:hover {
+    color: #400b60 !important;
+}
+.shape-slider2, .iw-contact-form-7 .form-button input, .iw-heading.border-color-theme .iwh-title:after, .iw-heading.style4.border-color-theme .iwh-sub-title:after, .iw-item-info.style1.style1_1 .icon-img, .iw-item-info.style2 .title:after,
+.iw-sponsors.style1 .owl-theme .owl-controls .owl-buttons > div:hover i, .dropcap .dropcap-style3, .dropcap .dropcap-style4, .tooltip .tooltip-inner, h5.iw-table-heading, .iw-button.button1 a,
+.accordion1 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title, .accordion2 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title i, .accordion2 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover i,
+.iw-doctor-detail .related-doctors .top .related-doctors-title:after, .department-detail .iw-department-tab .iw-tab-item.active .iw-tab-title:after, .iw-schedule-table .cd-schedule .events .single-event,
+.iw-asked-questions .accordion3 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title:after, body .select2-drop .select2-results .select2-highlighted, .iw-item-info.style1.style1_3,
+.doctor-items .doctor-item .doctor-read-more a:after, .iw-posts.style1 .post-content .read-more:after, .iw-doctors .owl-theme .owl-controls .owl-buttons div:hover, .accordion1 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover,
+.department-detail .iw-department-tab .iw-tab-item:hover .iw-tab-title:after, .iw-departments-listing .department-info .department-title:before, .iw-department.carousel-v2 .content-item .background:after,
+.iw-department.style1 .content-image-inner:after, .header-style-5 .main-menu ul.canvas-menu > li.menu-item a:hover,
+.header-style-5 .main-menu ul.canvas-menu > li:hover > a, .header-style-5 .handle3, .header-style-5 .main-menu ul.canvas-menu li.active > a,
+.header-style-5 .main-menu ul.canvas-menu li.current-menu-ancestor > a, .header-version-5 .make-appointment-header-v5 a:hover, .iw-button.bg-hover-color-theme a:hover,
+.iw-contact-form7 .submit-contact input, .iw-department.style1 .readmore-department a:after, .iw-pricing-table .iw-pricing-item.featured .pricing-footer a, .iw-pricing-table .iw-pricing-item.featured .pricing-price,
+.iw-pricing-table .iw-pricing-item.featured .pricing-line span, .iw-pricing-table-v4 table thead, .iw-pricing-table-v4 table tbody tr:hover, .header-default .language-appointment-header .header-book-button a,
+.header-version-2.clone, .header-version-5 .make-appointment-header-v5 a.cart-icon, .header.header-default .off-canvas-btn, .iw-item-info.style1.style1_2 .icon-img {
+    background: #400b60 !important;
+}
+.iw-item-info.style3 .item-info-content, .inwave-multi-map .iw-map-content-wrap,
+.doctors-grid-v3.doctors-grid .doctor-item .image:after, .iw-doctor-custom .doctor-image-social .background-overlay,
+.iw-doctor-custom .info, .iw-item-info.style8 .image-wrap:after, .comparision-slider .twentytwenty-handle, .twentytwenty-horizontal .twentytwenty-handle::before, .twentytwenty-horizontal .twentytwenty-handle::after,
+.twentytwenty-vertical .twentytwenty-handle::before, .twentytwenty-vertical .twentytwenty-handle::after, .imd-appointment-scroll-vertical .book-appointment:hover,
+.imd-appointment-scroll-vertical .appointment-list-prev:hover, .imd-appointment-scroll-vertical .appointment-list-next:hover, .imd-appointment-scroll-vertical .appointments-all:hover, .imd-appoinment-calendar table tr.days,
+.imd-appoinment-calendar table tbody td .date.has-appointment:hover .number, .imd-appoinment-calendar table tbody td.active .date.has-appointment, .imd-appoinment-calendar table .appointment-block-entry td,
+.appointment-calender-available-list .book-appointment:hover, .iw-button.effect-5 a:after, .page-template-home-page-kid .iw-footer-default .iw-footer-middle, .page-template-home-page-kid .iw-footer-default .iw-copy-right,
+.page-template-home-page-plastic-surgery .iw-footer-default .iw-footer-middle, .page-template-home-page-plastic-surgery .iw-footer-default .iw-copy-right, .imd-appoinment-calendar table tr.months,
+.iw-item-info.style9 .icon-img:hover i, .iw-footer-middle .widget_inwave-subscribe .iw-email-notifications button, .iw-footer-middle .widget_inwave-subscribe .iw-email-notifications .iw-social-footer-all li a:hover,
+.page-content-404 .text_404 i, .page-content-404 .home_link a {
+    background-color: #400b60;
+}
+blockquote.style1, blockquote.style2 {
+    border-left: 5px solid #400b60 !important;
+}
+.iw-testimonals.style1 .owl-theme .owl-controls .owl-buttons div:hover {
+    border: 1px #400b60 solid;
+    background: #400b60;
+}
+.iw-opening-hours.style1, .iw-button .button2 a, .iw-tabs.layout3 .iw-tab-items .iw-tab-item.active, .iw-tabs.layout3 .iw-tab-items .iw-tab-item:hover,
+.department-detail .iw-tab-item-content .our-doctor .info-right .button-action a:hover, .iw-doctor-detail .doctor-info .view-schedule a,
+.iw-doctor-detail .accordion1 .iw-accordion-item .iw-accordion-header.active .iw-accordion-title,
+.iw-pricing-table.style1 .iw-pricing-item.item-featured, .iw-pricing-table.style1 .iw-pricing-item:hover, .iw-button.button2 a, .iw-doctor-detail .accordion1 .iw-accordion-item .iw-accordion-header .iw-accordion-title:hover,
+.department-detail .iw-tab-item-content .working-schedule .info-right .button-action a:hover, .header-version-5 .make-appointment-header-v5 a:hover,
+.iw-contact-form-7.request-appointment .action-button-submit .prev-step a, .department-detail .iw-tab-item-content .working-schedule .info-right .button-action span:hover, .in-message.success,
+.doctors-grid-v3.doctors-grid .doctor-item .image, .iw-item-info.style8 .image-wrap, .imd-appoinment-calendar table tbody td .date.current-day .number, .imd-appoinment-calendar table tbody td.active,
+.appointment-calender-available-list .book-appointment, .button-slider-surgery, .iw-item-info.style9 .icon-img:hover, .iw-item-info.style9 .icon-img:hover i {
+    border-color: #400b60;
+}
+.iw-button.hover-border-theme a:hover {
+    border-color: #400b60 !important;
+}
+.tooltip.top .tooltip-arrow,
+.donates-info .current-donate::after {
+    border-top-color: #400b60;
+}
+
+.main-pet blockquote.style1, .main-pet blockquote.style2 {
+    border-left: 5px solid #400b60 !important;
+}
+.main-pet .iw-testimonals.style1 .owl-theme .owl-controls .owl-buttons div:hover {
+    border: 1px #400b60 solid;
+    background: #400b60;
+}
+.main-pet a{
+    color: #400b60;
+}
+.main-pet .theme-color-force{
+    color: #400b60 !important;
+}
+.main-pet .theme-color-hover:hover{
+    color: #400b60 !important;
+}
+.main-pet .theme-bg-color{
+    background-color:#400b60 !important;
+}
+.homepage-pet-slider .theme-bg,
+.main-pet .theme-bg{
+    background: none repeat scroll 0 0 #400b60 !important;
+}
+.main-pet .theme-bg-hover:hover{
+    background: none repeat scroll 0 0 #400b60 !important;
+}
+.main-pet .theme-border-color{
+    border-color: #400b60 !important;
+}
+.title-background-n .doctor-position a,
+.main-pet .theme-color,
+.header.header-version-v7 .iw-header .iw-menu-main .navbar-nav > li .sub-menu li:hover > a,
+.header.header-version-v7 .iw-header .iw-menu-main .navbar-nav > li .sub-menu li.current-menu-item > a,
+.header.header-version-v7 .iw-header .iw-menu-main .navbar-nav > li.wrap-2-column > ul > li > a,
+.header.header-version-v7 .iw-header .iw-menu-main .navbar-nav > li.wrap-3-column > ul > li > a,
+.header.header-version-v7 .iw-header .iw-menu-main .navbar-nav > li.wrap-4-column > ul > li > a,
+.header-version-v7 .navbar-default .navbar-nav > li.selected.active > a,
+.header-version-v7 .navbar-default .navbar-nav > li[class*="current-menu"] > a,
+.header-version-v7 .navbar-default .navbar-nav > li > a:hover{
+    color: #400b60!important;
+}
+.header-version-v6 .navbar-default .navbar-nav > li.selected.active > a,
+.header-version-v6 .navbar-default .navbar-nav > li[class*="current-menu"] > a,
+.header-version-v6 .navbar-default .navbar-nav > li > a:hover,
+.header .iw-header .iw-menu-main .navbar-nav > li .sub-menu li:hover > a,
+.header .iw-header .iw-menu-main .navbar-nav > li .sub-menu li.current-menu-item > a,
+.header .iw-header .iw-menu-main .navbar-nav > li.wrap-2-column > ul > li > a,
+.header .iw-header .iw-menu-main .navbar-nav > li.wrap-3-column > ul > li > a,
+.header .iw-header .iw-menu-main .navbar-nav > li.wrap-4-column > ul > li > a,
+.icon-slider a i,
+.slider-1-hostpital,
+.header.header-default .iw-header .iw-menu-main .navbar-nav li .sub-menu li.selected.active > a,
+.header.header-default .iw-header .iw-menu-main .navbar-nav li .sub-menu li.current-menu-item > a,
+.header.header-default .iw-main-menu .iw-nav-menu .sub-menu li[class*=current-menu] > a,
+.header.header-version-2 .iw-main-menu .iw-nav-menu .sub-menu li[class*=current-menu] > a,
+.header.header-version-2 .iw-header .iw-menu-main .navbar-nav li .sub-menu li.selected.active > a,
+.header.header-version-2 .iw-header .iw-menu-main .navbar-nav li .sub-menu li.current-menu-item > a,
+.header.header-version-3 .iw-main-menu .iw-nav-menu li[class*=current-menu] > a,
+.header.header-version-3 .iw-header .iw-menu-main .navbar-nav li li.selected.active > a,
+.header.header-version-3 .iw-header .iw-menu-main .navbar-nav li li.current-menu-item > a,
+.header.header-version-3 .navbar-default .navbar-nav > li:hover > a{
+    color: #400b60!important;
+}
+
+.header-default .navbar.navbar-default.iw-header,
+.shape-icon-1:hover,
+.shape-icon-2:hover,
+.shape-icon-3:hover,
+.shape-icon-4:hover,
+.shape-icon-5:hover,
+.shape-icon-1.active,
+.shape-icon-2.active,
+.shape-icon-3.active,
+.shape-icon-4.active,
+.shape-icon-5.active,
+.link-slider-2 {
+    border-color: #400b60!important;
+}
+.header.header-version-2 .iw-logo-appointment,
+.header.header-default .iw-header .iw-menu-main .iw-nav-menu,
+.header.header-default.header-sticky.clone .navbar-default,
+.header.header-version-2 .navbar.iw-header .iw-header-main-v2,
+.header.header-version-3 .iw-header .iw-menu-main .navbar-nav > li:hover > a > strong::before,
+.header.header-version-3 .iw-main-menu .iw-nav-menu li[class*=current-menu] > a strong::before,
+.hesperiden .tp-bullet:hover,
+.hesperiden .tp-bullet.selected,
+.shape-icon-1:hover,
+.shape-icon-2:hover,
+.shape-icon-3:hover,
+.shape-icon-4:hover,
+.shape-icon-5:hover,
+.shape-icon-1.active,
+.shape-icon-2.active,
+.shape-icon-3.active,
+.shape-icon-4.active,
+.shape-icon-5.active,
+.link-slider-2:hover,
+.iw-footer-default .iw-footer-middle .widget-title:after,
+.iw-footer-default .iw-footer-middle .widget_inwave-contact-info a.link_page_about_us:after,
+.header.header-version-2.clone .language-appointment-header .header-book-button a, .header.header-version-2.clone .cart-quickaccess a,
+.header-version-v4 .language-appointment-header .header-book-button a, .header-version-v4.header .off-canvas-btn, .header-version-v4.clone .top-bar-wrapper,
+.header-version-3 .language-appointment-header .header-book-button a, .header-version-3.header .off-canvas-btn {
+    background-color: #400b60!important;
+}
+
+.iw-video-html.style1 .play-button,
+.iw-video-html.style1 .open-popup-btn{
+	background-color:#400b60
+}
+
+.iw-accordion .iw-accordion-header.active .accordion-title{
+	background:#400b60;
+	border-color:#400b60;
+}
+.iw-doctors.style1 .readmore a{
+	background:#400b60;
+}
+.iw-doctors.style1 .owl-theme .owl-controls .owl-page.active span{
+	background:#400b60;
+}
+.iw-department.style1 .department-item .readmore a:hover{
+	background:#400b60;
+	border:2px solid #400b60;
+}
+.iw-department.style1 .readmore-department a:hover{
+	color:#400b60;
+}
+.iw-department.style1 .owl-theme .owl-controls .owl-buttons div:hover i{
+	background:#400b60;
+	border:1px solid #400b60;
+}
+.iw-contact-form-7.request-appointment .submit-button input[type=submit]{
+	border:2px solid #400b60;
+	color:#400b60;
+}
+.iw-contact-form-7.request-appointment .submit-button input[type=submit]:hover{
+	background:#400b60;
+}
+.iw-department.style2 a.content-link:hover{
+	color:#400b60;
+}
+.iw-department.style2 .slick-prev:hover, 
+.iw-department.style2 .slick-next:hover{
+	border:1px solid #400b60;
+	background:#400b60;
+}
+.appoinment-form.request-appointment button.form-submit{
+    border: 2px solid #400b60;
+    color: #400b60;
+}
+.appoinment-form.request-appointment button.form-submit:hover{
+	background:#400b60;
+}
+
+.woocommerce .mega-widget-menu .ibutton{
+	background:#400b60;
+}
+.woo-list-product-grid .product-image span.new-label:before, 
+.woo-list-product-row span.new-label:before,
+.product-detail .product-essential .product-img-box span.new-label:before{
+	border-top-color: #400b60;
+}
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle::before,
+.woocommerce .widget_price_filter .price_slider_amount .button, .widget_product_categories,
+.woo-list-product-grid a.quickview, .woo-list-product-grid a.add_to_wishlist,
+.woo-list-product-grid .add-cart a.add_to_cart_button:hover, .woo-list-product-row .actions-box a.add_to_cart_button:hover,
+.woo-list-product-row .info-products-list .actions-box a.quickview:hover,.woo-list-product-row .info-products-list .actions-box a.add_to_wishlist:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce .calc_shipping_postcode_wap .button,
+.woocommerce .checkout-box-login button.button, .woocommerce .checkout-box-coupon button.button,
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order, .woocommerce-message a.wc-forward,
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,
+.product-detail .product-essential .product-shop .add-to-box button.single_add_to_cart_button,
+.product-detail .product-essential .product-shop .single_variation_wrap .single_add_to_cart_button,
+.quickview-box-inner .quickview-close{
+    background:#400b60;
+}
+.woocommerce ul.product_list_widget li .product-name:hover, .woocommerce ul.product_list_widget li .price-box,
+.woo-list-product-grid .product-name a:hover, .woo-list-product-grid .price-box .amount, .woo-list-product-row .product-name a:hover,
+.woo-list-product-row .price-box .amount, .product-detail .woo-comment-author,
+.cart-table-items .cart-table-title .title-cart-table.delete-item a,
+.cart-table-items .cart-price, .cart-table-items .row-item .delete-item a:hover,
+.cart-table-items .product-info a:hover, .woo-cart-coupon .row-title,
+.woocommerce-cart .cart-collaterals .cart_totals .title, .woocommerce-cart .cart-collaterals .cart_totals .amount, .woo-shipping-calculator-button a,
+.woocommerce .woocommerce-message::before, .checkout-box .title, .lost_password a, .woocommerce .checkout-box-order table.shop_table .amount,
+.product-detail .product-essential .product-shop .product-name h1, .product-detail .product-essential .product-shop .price-box-inner,
+.cat-list a, .widget_meta ul li a:hover{
+    color:#400b60;
+}
+.woo-list-product-grid:hover, .woo-list-product-row:hover,
+.woo-list-product-grid .add-cart a.add_to_cart_button:hover,.woo-list-product-row .actions-box a.add_to_cart_button:hover{
+    border:2px solid #400b60;
+}
+.woo-cart-coupon  .button{
+    background:#400b60!important;
+}
+
+.woocommerce .woocommerce-message, #order-modern .signup_tabbutton .signuptype.active:before{
+    border-top-color:#400b60;
+}
+ul.page-numbers li span.page-numbers, ul.page-numbers li a.page-numbers:hover,
+.product-detail .product-essential .tags-list a:hover{
+    border-color:#400b60;
+    background:#400b60;
+}
+.iw-doctor-detail .doctor-info .social-link > div li > a:hover{
+	border-color:#400b60;
+    background:#400b60;
+}
+.cart-quickaccess a span{
+	background:#400b60;
+}
+.widget_pages ul li > a,
+.page-content .widget_nav_menu ul li > a{
+    color:#400b60;
+}
+.tagcloud a:hover{
+	background:#400b60;
+}
+.widget_categories ul li > a:hover,
+.widget_meta ul li > a:hover,
+.widget_archive ul li > a:hover{
+    color:#400b60;
+}
+.page-nav span.current, .page-nav a.page-numbers:hover{
+	background:#400b60;
+	border-color:#400b60;
+}
+.related-post h3.related-post-title a:hover{
+	color:#400b60;
+}
+.comment-respond input.btn-submit{
+	background:#400b60;
+}
+.blog-author .author-name a:hover{
+	color:#400b60;
+}
+.post-share-buttons a:hover{
+	color:#400b60;
+}
+.blog-content .post-item .tags-links a:hover{
+	background:#400b60;
+}
+.blog-content .post-item .owl-theme .owl-controls .owl-buttons div:hover{
+	background:#400b60;
+}
+.blog-content .post-item .post-content-footer a.more-link:hover{
+	border:2px solid #400b60;
+	background:#400b60;
+}
+.post-content-footer .post-share-buttons-cat a:hover{
+	color:#400b60;
+}
+.blog-content .post-item .post-info-category a:hover{
+	color:#400b60;
+}
+.blog-content .post-item .post-info-author span{
+	color:#400b60;
+}
+.blog-content .post-item h3.post-title a:hover{
+	color:#400b60;
+}
+.blog-content .post-item .post-info-date{
+	background:#400b60;
+}
+.page-heading h1 + .page-heading-desc:before{
+	border-top:2px solid #400b60;
+}
+.breadcrumbs-line{
+    background-color: #400b60;
+}
+.breadcrumbs > li  i{
+    color:#400b60;
+}
+.link-slider-2{
+    border:2px solid #400b60!important;
+}
+.header.header-version-2 .top-search {
+    background-color: #400b60;
+}
+.header-default .navbar.navbar-default.iw-header {
+    border-bottom: 2px solid #400b60;
+}
+.product_detail_share_icon a:hover{
+	background:#400b60;
+}
+.product-detail .product-essential a.add_to_wishlist{
+	background:#400b60;
+}
+.widget_recent_comments .recentcomments a:hover{
+	color:#400b60;
+}
+
+@media (max-width: 991px) {
+
+    .header.clone .language-appointment-header .header-book-button a span,
+    .header-default.clone .menu-mobile .off-canvas-btn i{
+        color: #400b60!important;
+    }
+    .menu-mobile,
+    .header-default.clone .iw-logo-appointment,
+    .header.header-version-2 .iw-header,
+	.header-version-2.clone .iw-logo-appointment, .header-style-5 .header-version-5,
+    .header.header-version-v6 .language-appointment-header .header-book-button a,
+    .header.header-version-v6 .off-canvas-btn {
+        background-color: #400b60!important;
+    }
+    .header.header-version-v7 .language-appointment-header .header-book-button a,
+    .header.header-version-v7 .off-canvas-btn {
+        background-color: #400b60!important;
+    }
+}
