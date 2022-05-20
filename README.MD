@@ -19,7 +19,7 @@ https://drive.google.com/drive/folders/1l1Yc5cGfkpaIo_HoYH5BVuYG9qTRHZHT?usp=sha
 
 ## Date of Completion
 
-TBD
+19 / 05 / 2022
 
 ## Motivation
 
@@ -35,19 +35,17 @@ Another motivation is to save lives in Kenya and spread awareness about the dise
 - Google Docs
 - Microsoft Excel
 
-TBD ...
-
 # Languages used
 
 Python
+HTML/CSS
+JavaScipt
+Django
+Bootstrap
 
-TBD ...
+# Deployment
 
-## Setup
-
-The link to the deployed website is here : 
-
-TBD ...
+The project was deployed using Plotly Dash. 
 
 ## Contact Details
 
